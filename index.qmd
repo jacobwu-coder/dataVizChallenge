@@ -393,7 +393,7 @@ comparison_data = pd.merge(
 )
 
 # Two-facet figure: 2010 and 2021, Colorado highlighted (object-oriented matplotlib)
-fig, axes = plt.subplots(1, 2, figsize=(12, 7))
+fig, axes = plt.subplots(1, 2, figsize=(8, 6))
 fig.suptitle("Stadium Run-Friendliness: 2010 vs 2021 (Colorado Highlighted)", fontsize=14, fontweight='bold', y=1.02)
 
 for ax, year, col, title in [
